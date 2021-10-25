@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyAPgiJ7bTjyIExLWcVm5qXBcDBYSh3ACWQ";
+const API_KEY = "YOUR API KEY";
 
 const request = {
   fetchUstNuzul: `/?key=${API_KEY}&part=snippet&channelId=UCZHbLWGrq43F0-5Ef37CpWQ&maxResults=5&order=date`,
