@@ -1,0 +1,28 @@
+.banner {
+  margin: 0;
+  height: 50vh;
+  padding: 200px 0 200px;
+}
+
+.banner__content {
+  display: none;
+  background-color: rgba(43, 40, 40, 0.5);
+  text-align: center;
+  color: white;
+  padding: 50px;
+  border-radius: 10px;
+  font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    height: 600px;
+    padding: 200px 150px 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner__content {
+    display: block;
+  }
+}

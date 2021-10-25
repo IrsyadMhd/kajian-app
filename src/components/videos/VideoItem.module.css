@@ -1,0 +1,16 @@
+.row__item img {
+  max-width: 300px;
+  object-fit: contain;
+  transition: transform 400ms;
+  cursor: pointer;
+}
+
+.row__item img:hover {
+  transform: scale(1.04);
+}
+
+@media (max-width: 576px) {
+  .row__item img {
+    max-width: 200px;
+  }
+}

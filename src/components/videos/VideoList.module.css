@@ -1,0 +1,11 @@
+.row__list {
+  display: flex;
+  gap: 1rem;
+  padding: 20px 0;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.row__list::-webkit-scrollbar {
+  display: none;
+}
