@@ -35,6 +35,11 @@ function App() {
         />
       )}
       <Row
+        title="Ustadz Firanda Andirja"
+        fetchUrl={request.fetchUstFiranda}
+        onClick={clickHandler}
+      />
+      <Row
         title="Ustadz Nuzul Dzikri"
         fetchUrl={request.fetchUstNuzul}
         onClick={clickHandler}
